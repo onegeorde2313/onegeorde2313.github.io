@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulcería Sweet Treats</title>
+    <link rel="stylesheet" href="estilo2.css">
+    <style>
+        img.coco{
+            height: 200px;
+            width: 200px;
+        }
+        header img.logo { 
+            height: 200px; 
+            width: 200px; 
+            vertical-align: middle; }
+         header h1 { display: inline; 
+            margin-left: 10px; 
+            vertical-align: middle; }
+    
+        </style>
+    </head>
+    <body  onload="restoreScrollPosition()">
+        <header>
+            <img class="logo" src="imagenes/logopr.png" alt="Logo de Dulcería Sweet Treats"> 
+            <h1>La Casa Del Sabor</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarSeccion('dulces')">Dulces</a>
+                    <ul class="dropdown">
+                        <li><a href="chocolate.html" onclick="mostrarSeccion('chocolates')">Chocolates</a></li>
+                        <li><a href="gomitas.html" onclick="mostrarSeccion('gomitas')">Gomitas</a></li>
+                        <li><a href="caramelos.html" onclick="mostrarSeccion('caramelos')">Caramelos</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#" onclick="mostrarSeccion('desechables')">Desechables</a>
+                    <ul class="dropdown">
+                        <li><a href="platos.html" onclick="mostrarSeccion('platos')">Platos</a></li>
+                        <li><a href="vasos.html" onclick="mostrarSeccion('vasos')">Vasos</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#" onclick="mostrarSeccion('articulos_fiestas')">Artículos para Fiestas</a>
+                    <ul class="dropdown">
+                        <li><a href="globos.html" onclick="mostrarSeccion('globos')">Globos</a></li>
+                        <li><a href="decoraciones.html" onclick="mostrarSeccion('decoraciones')">Decoraciones</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="mostrarSeccion('contacto')">Contacto</a>
+                    <ul class="dropdown">
+                        <li><a href="email.html" onclick="mostrarSeccion('email')">Email</a></li>
+                        <li><a href="telefono.html" onclick="mostrarSeccion('telefono')">Teléfono</a></li>
+                        <li><a href="direccion.html" onclick="mostrarSeccion('direccion')">Dirección</a></li>
+                        <li><a href="horarios.html" onclick="mostrarSeccion('horario')">Horario</a></li>
+                        <li><a href="login.html" onclick="mostrarSeccion('Ajustes')">Ajustes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Platos</h2>
+
+    <div class="product-grid">
+        <div class="product">
+            <img class="coco" src="dese/cha2.png" alt="Plato de Charola">
+            <p><strong>Nombre:</strong> Plato de Charola</p>
+            <p><strong>Marca:</strong> PartyWare</p>
+            <p><strong>Precio:</strong> $25</p>
+            <p><strong>Descripción:</strong> Platos grandes de charola para fiestas</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="dese/cont2.png" alt="Platos Contenedor">
+            <p><strong>Nombre:</strong> Platos Contenedor</p>
+            <p><strong>Marca:</strong> ContainMaster</p>
+            <p><strong>Precio:</strong> $30</p>
+            <p><strong>Descripción:</strong> Platos con secciones para alimentos</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="dese/plato2.png" alt="Platos Redondos">
+            <p><strong>Nombre:</strong> Platos Redondos</p>
+            <p><strong>Marca:</strong> RoundPlate</p>
+            <p><strong>Precio:</strong> $20</p>
+            <p><strong>Descripción:</strong> Platos redondos para fiestas</p>
+        </div>
+    </div>
+    <div class="product-grid">
+        <div class="product">
+            <img class="coco" src="dese/platos2.png" alt="Platos Grandes">
+            <p><strong>Nombre:</strong> Platos Grandes</p>
+            <p><strong>Marca:</strong> BigPlate</p>
+            <p><strong>Precio:</strong> $28</p>
+            <p><strong>Descripción:</strong> Platos grandes para comidas</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="dese/plat.png" alt="Platos Cuadrados">
+            <p><strong>Nombre:</strong> Platos Cuadrados</p>
+            <p><strong>Marca:</strong> SquareWare</p>
+            <p><strong>Precio:</strong> $22</p>
+            <p><strong>Descripción:</strong> Platos cuadrados para ocasiones especiales</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="dese/plaR.png" alt="Platos Resistentes">
+            <p><strong>Nombre:</strong> Platos Resistentes</p>
+            <p><strong>Marca:</strong> Durability</p>
+            <p><strong>Precio:</strong> $35</p>
+            <p><strong>Descripción:</strong> Platos resistentes para uso diario</p>
+        </div>
+    </div>
+   
+    <div class="buttons">
+        <button onclick="window.history.go(-1)">Página Anterior</button>
+        <button onclick="window.location.href='index.html'">Página Principal</button>
+    </div>
+
+    <!-- Contenido específico de la página de Chocolates -->
+
+</body>
+</html>

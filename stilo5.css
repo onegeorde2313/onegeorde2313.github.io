@@ -1,0 +1,210 @@
+/* Estilos generales para toda la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFE4E1;
+}
+
+header img.logo {
+    height: 200px;
+    width: 200px;
+    vertical-align: middle;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #FF69B4;
+    display: inline;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+h2 {
+    text-align: center;
+    color: #FF69B4;
+    margin-top: 20px;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FFB6C1;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFDAB9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.dropdown li {
+    padding: 0;
+}
+
+.dropdown li a {
+    padding: 10px;
+    color: #333;
+}
+
+.dropdown li a:hover {
+    background-color: #F08080;
+}
+
+/* Estilos para botones */
+.buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #FF1493;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #FFF0F5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #FFB6C1;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #FFB6C1;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #FFEEF2;
+}
+
+tr:hover {
+    background-color: #FFB6C1;
+    color: #FFF;
+}
+
+/* Estilos para el formulario */
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #FFB6C1;
+    border-radius: 10px;
+    background-color: #FFF0F5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form th, form td {
+    padding: 10px;
+    text-align: left;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #FFB6C1;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+/* Estilos para botones dentro del formulario */
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-buttons button:hover {
+    background-color: #FF1493;
+}
+
+/* Estilos específicos para productos */
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #FFB6C1;
+    padding: 10px;
+    background-color: #FFF0F5;
+    width: 30%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product p {
+    margin: 10px 0;
+}

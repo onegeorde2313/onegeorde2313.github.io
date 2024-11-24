@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #FF69B4;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #FFF0F5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #FFB6C1;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #FFB6C1;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #FFEEF2;
+}
+
+tr:hover {
+    background-color: #FFB6C1;
+    color: #FFF;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #FFB6C1;
+    border-radius: 10px;
+    background-color: #FFF0F5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form th, form td {
+    padding: 10px;
+    text-align: left;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #FFB6C1;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-buttons button:hover {
+    background-color: #FF1493;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulcería Sweet Treats</title>
+    <link rel="stylesheet" href="estilo2.css">
+    <style>
+        img.coco{
+            height: 200px;
+            width: 200px;
+        }
+        header img.logo { 
+            height: 200px; 
+            width: 200px; 
+            vertical-align: middle; }
+         header h1 { display: inline; 
+            margin-left: 10px; 
+            vertical-align: middle; }
+    
+        </style>
+    </head>
+    <body  onload="restoreScrollPosition()">
+        <header>
+            <img class="logo" src="imagenes/logopr.png" alt="Logo de Dulcería Sweet Treats"> 
+            <h1>La Casa Del Sabor</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarSeccion('dulces')">Dulces</a>
+                    <ul class="dropdown">
+                        <li><a href="chocolate.html" onclick="mostrarSeccion('chocolates')">Chocolates</a></li>
+                        <li><a href="gomitas.html" onclick="mostrarSeccion('gomitas')">Gomitas</a></li>
+                        <li><a href="caramelos.html" onclick="mostrarSeccion('caramelos')">Caramelos</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#" onclick="mostrarSeccion('desechables')">Desechables</a>
+                    <ul class="dropdown">
+                        <li><a href="platos.html" onclick="mostrarSeccion('platos')">Platos</a></li>
+                        <li><a href="vasos.html" onclick="mostrarSeccion('vasos')">Vasos</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#" onclick="mostrarSeccion('articulos_fiestas')">Artículos para Fiestas</a>
+                    <ul class="dropdown">
+                        <li><a href="globos.html" onclick="mostrarSeccion('globos')">Globos</a></li>
+                        <li><a href="decoraciones.html" onclick="mostrarSeccion('decoraciones')">Decoraciones</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="mostrarSeccion('contacto')">Contacto</a>
+                    <ul class="dropdown">
+                        <li><a href="email.html" onclick="mostrarSeccion('email')">Email</a></li>
+                        <li><a href="telefono.html" onclick="mostrarSeccion('telefono')">Teléfono</a></li>
+                        <li><a href="direccion.html" onclick="mostrarSeccion('direccion')">Dirección</a></li>
+                        <li><a href="horarios.html" onclick="mostrarSeccion('horario')">Horario</a></li>
+                        <li><a href="login.html" onclick="mostrarSeccion('Ajustes')">Ajustes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Gomitas</h2>
+
+    <div class="product-grid">
+        <div class="product">
+            <img class="coco" src="imagenes/gumy2.jpg" alt="Mega Gummy Pop">
+            <p><strong>Nombre:</strong> Mega Gummy Pop</p>
+            <p><strong>Marca:</strong> De La Rosa</p>
+            <p><strong>Precio:</strong> $80</p>
+            <p><strong>Descripción:</strong> Gomita azucarada</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="imagenes/durazno.png" alt="Gomitas de Durazno">
+            <p><strong>Nombre:</strong> Gomitas de Durazno</p>
+            <p><strong>Marca:</strong> Deliz</p>
+            <p><strong>Precio:</strong> $50</p>
+            <p><strong>Descripción:</strong> Gomitas sabor durazno</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="imagenes/ositos.png" alt="Ositos de Gomita">
+            <p><strong>Nombre:</strong> Ositos de Gomita</p>
+            <p><strong>Marca:</strong> Haribo</p>
+            <p><strong>Precio:</strong> $45</p>
+            <p><strong>Descripción:</strong> Gomitas de ositos multicolor</p>
+        </div>
+    </div>
+    <div class="product-grid">
+        <div class="product">
+            <img class="coco" src="imagenes/tiburon.png" alt="Gomitas Tiburón">
+            <p><strong>Nombre:</strong> Gomitas Tiburón</p>
+            <p><strong>Marca:</strong> Trolli</p>
+            <p><strong>Precio:</strong> $55</p>
+            <p><strong>Descripción:</strong> Gomitas azules con forma de tiburón</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="imagenes/dulci.png" alt="Gomitas Dulci">
+            <p><strong>Nombre:</strong> Gomitas Dulci</p>
+            <p><strong>Marca:</strong> Dulci</p>
+            <p><strong>Precio:</strong> $40</p>
+            <p><strong>Descripción:</strong> Gomitas variadas</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="imagenes/comitas.png" alt="Comitas Frutales">
+            <p><strong>Nombre:</strong> Comitas Frutales</p>
+            <p><strong>Marca:</strong> Frutitas</p>
+            <p><strong>Precio:</strong> $38</p>
+            <p><strong>Descripción:</strong> Gomitas sabor frutas</p>
+        </div>
+    </div>
+    <div class="product-grid">
+        <div class="product">
+            <img class="coco" src="imagenes/corazones.png" alt="Gomitas de Corazón">
+            <p><strong>Nombre:</strong> Gomitas de Corazón</p>
+            <p><strong>Marca:</strong> Haribo</p>
+            <p><strong>Precio:</strong> $52</p>
+            <p><strong>Descripción:</strong> Gomitas en forma de corazón</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="imagenes/cubo.png" alt="Gomitas de Cubo">
+            <p><strong>Nombre:</strong> Gomitas de Cubo</p>
+            <p><strong>Marca:</strong> Gomitas</p>
+            <p><strong>Precio:</strong> $48</p>
+            <p><strong>Descripción:</strong> Gomitas en forma de cubo</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="imagenes/manzana.png" alt="Gomitas de Manzana">
+            <p><strong>Nombre:</strong> Gomitas de Manzana</p>
+            <p><strong>Marca:</strong> Fruitland</p>
+            <p><strong>Precio:</strong> $50</p>
+            <p><strong>Descripción:</strong> Gomitas sabor manzana</p>
+        </div>
+    </div>
+    <div class="product-grid">
+        <div class="product">
+            <img class="coco" src="imagenes/mango.png" alt="Gomitas de Mango">
+            <p><strong>Nombre:</strong> Gomitas de Mango</p>
+            <p><strong>Marca:</strong> MangoTastic</p>
+            <p><strong>Precio:</strong> $53</p>
+            <p><strong>Descripción:</strong> Gomitas sabor mango</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="imagenes/lonbris.png" alt="Gomitas de Lombriz">
+            <p><strong>Nombre:</strong> Gomitas de Lombriz</p>
+            <p><strong>Marca:</strong> Wormies</p>
+            <p><strong>Precio:</strong> $47</p>
+            <p><strong>Descripción:</strong> Gomitas en forma de lombriz</p>
+        </div>
+        <div class="product">
+            <img class="coco" src="imagenes/pin.png" alt="Gomitas Piña">
+            <p><strong>Nombre:</strong> Gomitas Piña</p>
+            <p><strong>Marca:</strong> PiñaDel[_{{{CITATION{{{_1{](https://github.com/la9una/web/tree/ba1073ae044ebb7b538a3b13f0f9598f7c410bb6/docs%2Fbootstrap%2Falignci.md)
